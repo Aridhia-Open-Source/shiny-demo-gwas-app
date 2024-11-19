@@ -39,7 +39,7 @@ The example data is the R example dataset HapMap, from the `manhattanly` package
 You can clone this repository by using the command:
 
 ```
-git clone https://github.com/aridhia/gwas-app
+git clone https://github.com/Aridhia-Open-Source/shiny-demo-gwas-app
 ```
 
 Open the .Rproj file in RStudio, source the script `dependencies.R` to install all the packages required by the app, and run `runApp()` to start the app.

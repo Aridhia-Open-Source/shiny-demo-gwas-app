@@ -101,8 +101,8 @@ function(input, output, session) {
                    signal.line=1,                                               # Thickness of the lines
                    signal.col=c("red","green"),                                 # Color of the significant lines
                    threshold=c(5e-8, 1e-5),                                     # Significant threshold levels
-                   outward=outward,                                             # Type of graph, outward/inward
-                   cir.legend.col="black",                                      # Color of the legend
+                   outward=outward,
+                   cir.axis.col="black",                                      # Color of the legend
                    cir.chr.h=700,                                               # Width of the boundary   
                    chr.den.col= NULL,                                           # Density plot will not be around the graph 
                    file.output=FALSE)                                           # Not output the plot results
@@ -119,7 +119,7 @@ function(input, output, session) {
                file.output=FALSE,                                               # Not output the plot results
                mar=c(2, 2, 2, 2),                                               # Margins
                main=NULL,                                                       # Title 
-               cex.lab = 1,                                                     # Size of X/Y labels
+               legend.cex = 1,                                                     # Size of X/Y labels
                ylim=c(0, 20),                                                   # Limit Y axis
                col='black',                                                     # Color scheme
                conf.int=input$qqplot_conf,                                      # Show confidence interval

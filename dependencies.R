@@ -1,6 +1,3 @@
-
-
-
 package_install <- function(x){
   for (i in x) {
     # Check if package is installed
@@ -11,8 +8,8 @@ package_install <- function(x){
   }
 }
 
-
-packages <- c("shiny", "qqman", "data.table", "CMplot", "manhattanly", "plotly")
-
+packages <- c("shiny", "qqman", "data.table", "CMplot", "plotly")
 
 package_install(packages)
+
+install.packages('/home/workspace/files/gwas-app/manhattanly_0.3.0.tar.gz', repos=NULL, type="source")

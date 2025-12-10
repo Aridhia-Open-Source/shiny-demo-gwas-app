@@ -21,7 +21,7 @@ The app has five tabs:
 
 5. **Help**
 
-This R Shiny mini-app reads the files allocated in the `data` folder, you can add your own data and use it in the app. The app expects a csv derived from the PLINK .map file, this file should contain the following columns:
+This R web app reads the files allocated in the `data` folder, you can add your own data and use it in the app. The app expects a csv derived from the PLINK .map file, this file should contain the following columns:
 
 1. CHR - chromosome number (`integer`)
 2. BP - genomic base-pair position (`integer`)
@@ -47,7 +47,7 @@ Open the .Rproj file in RStudio, source the script `dependencies.R` to install a
 ### Deploying to the workspace
 
 1. Download this GitHub repo as a .zip file.
-2. Create a new blank Shiny app in your workspace called "gwas-app".
+2. Create a new blank R web app in your workspace called "gwas-app".
 3. Navigate to the `gwas-app` folder under "files".
 4. Delete the `app.R` file from the `gwas-app` folder. Make sure you keep the `.version` file!
 5. Upload the .zip file to the `gwas-app` folder.
